@@ -1,0 +1,72 @@
+﻿<phone:PhoneApplicationPage
+    x:Class="PhoneApp1.SemiFinals"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait"  Orientation="Portrait"
+    shell:SystemTray.IsVisible="False">
+
+    <!--LayoutRoot is the root grid where all page content is placed-->
+    <Grid x:Name="LayoutRoot" Background="Transparent">
+        <!--Pivot Control-->
+        <phone:Pivot Title="MY APPLICATION" Background="White">
+            <!--Pivot item one-->
+            <phone:PivotItem Header="item1" Background="White">
+                <Grid Margin="0,113,0,-113">
+                    <StackPanel Grid.Row="0" Margin="35,-251,-47,727"/>
+                    <TextBlock HorizontalAlignment="Left" Height="61" Margin="3,-226,0,0" TextWrapping="Wrap" Text="Semi Finals" VerticalAlignment="Top" Width="254" Foreground="#FFAF1919" FontFamily="/Assets/fonts/ahronbd.ttf#Aharoni Bold" FontSize="45"/>
+                    <Rectangle x:Name="Flag89" Fill="#FFF5C323" HorizontalAlignment="Left" Height="100" Margin="20,-19,0,0" Stroke="Black" VerticalAlignment="Top" Width="137" Visibility="Collapsed"/>
+                    <Image x:Name="Image89" HorizontalAlignment="Left" Height="74" Margin="32,-4,0,0" VerticalAlignment="Top" Width="112"/>
+                    <TextBlock x:Name="Name89" HorizontalAlignment="Left" Height="50" Margin="15,86,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="177" Foreground="#FFAF1919" FontFamily="/Assets/fonts/ahronbd.ttf#Aharoni Bold" FontSize="30" TextAlignment="Center"/>
+                    <Rectangle x:Name="Flag90" Fill="#FFF5C323" HorizontalAlignment="Left" Height="100" Margin="247,-16,0,0" Stroke="Black" VerticalAlignment="Top" Width="137" Visibility="Collapsed"/>
+                    <Image x:Name="Image90" HorizontalAlignment="Left" Height="74" Margin="259,-1,0,0" VerticalAlignment="Top" Width="112"/>
+                    <TextBlock x:Name="Name90" HorizontalAlignment="Left" Height="44" Margin="228,87,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="202" Foreground="#FFAF1919" FontFamily="/Assets/fonts/ahronbd.ttf#Aharoni Bold" FontSize="30" TextAlignment="Center"/>
+                    <Rectangle x:Name="Flag91" Fill="#FFF5C323" HorizontalAlignment="Left" Height="100" Margin="24,141,0,0" Stroke="Black" VerticalAlignment="Top" Width="137" Visibility="Collapsed"/>
+                    <Image x:Name="Image91" HorizontalAlignment="Left" Height="74" Margin="36,156,0,0" VerticalAlignment="Top" Width="112"/>
+                    <TextBlock x:Name="Name91" HorizontalAlignment="Left" Height="44" Margin="15,243,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="177" Foreground="#FFAF1919" FontFamily="/Assets/fonts/ahronbd.ttf#Aharoni Bold" FontSize="30" TextAlignment="Center"/>
+                    <Rectangle x:Name="Flag92" Fill="#FFF5C323" HorizontalAlignment="Left" Height="100" Margin="246,140,0,0" Stroke="Black" VerticalAlignment="Top" Width="137" Visibility="Collapsed"/>
+                    <Image x:Name="Image92" HorizontalAlignment="Left" Height="74" Margin="258,155,0,0" VerticalAlignment="Top" Width="112"/>
+                    <TextBlock x:Name="Name92" HorizontalAlignment="Left" Height="46" Margin="228,241,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="202" Foreground="#FFAF1919" FontFamily="/Assets/fonts/ahronbd.ttf#Aharoni Bold" FontSize="30" TextAlignment="Center"/>
+                    <Button Content="Touch For Next Round" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="15,379,0,0" Width="429" Background="#FF467D32" BorderBrush="#FF467D32" Foreground="#FFAF1919" FontFamily="/Assets/fonts/ahronbd.ttf#Aharoni" FontSize="35" Height="139" Click="Button_Click_1"/>
+                    <CheckBox x:Name="CheckBox89" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="162,-4,0,0" Width="84" Background="#FFAF1919" BorderBrush="#FFAC3333" Foreground="#FF150505" Height="74" BorderThickness="3"/>
+                    <CheckBox x:Name="CheckBox90" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="389,0,-18,0" Width="85" Background="#FFAF1919" BorderBrush="#FFAC3333" Foreground="#FF150505" Height="84" BorderThickness="3"/>
+                    <CheckBox x:Name="CheckBox91" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="164,155,0,0" Width="84" Background="#FFAF1919" BorderBrush="#FFAC3333" Foreground="#FF150505" Height="83" BorderThickness="3"/>
+                    <CheckBox x:Name="CheckBox92" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="388,155,-16,0" Width="84" Background="#FFAF1919" BorderBrush="#FFAC3333" Foreground="#FF150505" Height="83" BorderThickness="3"/>
+                    <Image HorizontalAlignment="Left" Height="640" VerticalAlignment="Top" Width="480" Opacity="0.2" Source="/Images/LOGO.jpg" Margin="20,-266,-44,0"/>
+                    <Grid x:Name="Grid89" HorizontalAlignment="Left" Height="100" VerticalAlignment="Top" Width="198" Margin="18,-16,0,0" MouseLeftButtonUp="Grid89_MouseLeftButtonUp">
+                        <Grid.Background>
+                            <ImageBrush Stretch="Fill" ImageSource="/Images/TRANS.png"/>
+                        </Grid.Background>
+                    </Grid>
+                    <Grid x:Name="Grid90" HorizontalAlignment="Left" Height="100" VerticalAlignment="Top" Width="198" Margin="257,-13,0,0" MouseLeftButtonUp="Grid90_MouseLeftButtonUp">
+                        <Grid.Background>
+                            <ImageBrush Stretch="Fill" ImageSource="/Images/TRANS.png"/>
+                        </Grid.Background>
+                    </Grid>
+                    <Grid x:Name="Grid91" HorizontalAlignment="Left" Height="100" VerticalAlignment="Top" Width="198" Margin="22,141,0,0" MouseLeftButtonUp="Grid91_MouseLeftButtonUp">
+                        <Grid.Background>
+                            <ImageBrush Stretch="Fill" ImageSource="/Images/TRANS.png"/>
+                        </Grid.Background>
+                    </Grid>
+                    <Grid x:Name="Grid92" HorizontalAlignment="Left" Height="100" VerticalAlignment="Top" Width="198" Margin="247,136,0,0" MouseLeftButtonUp="Grid92_MouseLeftButtonUp">
+                        <Grid.Background>
+                            <ImageBrush Stretch="Fill" ImageSource="/Images/TRANS.png"/>
+                        </Grid.Background>
+                    </Grid>
+                    <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="Choose The Winners" VerticalAlignment="Top" Margin="22,-121,0,0" Width="398" Foreground="#FF467D32" FontFamily="/Assets/fonts/ahronbd.ttf#Aharoni Bold" FontSize="40"/>
+                    <Button Content="Teams Info" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="257,-226,-14,0" Width="213" Background="#FF467D32" BorderBrush="#FF467D32" Foreground="#FFAF1919" FontFamily="/Assets/fonts/ahronbd.ttf#Aharoni" FontSize="29" Height="61" Click="Button_Click"/>
+                </Grid>
+            </phone:PivotItem>
+
+            <!--Pivot item two-->
+        </phone:Pivot>
+    </Grid>
+
+</phone:PhoneApplicationPage>

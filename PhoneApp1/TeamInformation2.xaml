@@ -1,0 +1,43 @@
+﻿<phone:PhoneApplicationPage
+    x:Class="PhoneApp1.TeamInformation2"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait" Orientation="Portrait"
+    mc:Ignorable="d"
+    shell:SystemTray.IsVisible="False" Background="White">
+
+    <!--LayoutRoot is the root grid where all page content is placed-->
+    <Grid x:Name="LayoutRoot" Background="White">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!--TitlePanel contains the name of the application and page title-->
+        <StackPanel Grid.Row="0" Margin="12,17,0,28" Background="White"/>
+
+        <!--ContentPanel - place additional content here-->
+        <Grid x:Name="ContentPanel" Grid.RowSpan="2" Background="White">
+            <Image HorizontalAlignment="Left" Height="800" VerticalAlignment="Top" Width="480" Source="/Images/LOGO.jpg" Opacity="0.2"/>
+            <Rectangle Fill="#FFF5C323" HorizontalAlignment="Left" Height="800" Stroke="Black" VerticalAlignment="Top" Width="480" Opacity="0.5"/>
+            <Image x:Name="TeamFlag" HorizontalAlignment="Left" Height="111" Margin="298,57,0,0" VerticalAlignment="Top" Width="172"/>
+            <TextBlock x:Name="TeamName" HorizontalAlignment="Left" Height="111" Margin="10,57,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="283" FontSize="48" FontFamily="/Assets/fonts/ahronbd.ttf#Aharoni" TextAlignment="Center" Foreground="#FFAF1919"/>
+            <TextBlock x:Name="TeamInformationText" HorizontalAlignment="Left" Height="596" Margin="10,194,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="460" FontSize="25" FontFamily="/Assets/fonts/ahronbd.ttf#Aharoni" Foreground="#FFAF1919"/>
+            <Image HorizontalAlignment="Left" Height="154" Margin="20,636,0,0" VerticalAlignment="Top" Width="436" Source="/Images/WikipediaLogo.png"/>
+            <HyperlinkButton x:Name="Link" Content="" HorizontalAlignment="Left" Height="154" Margin="20,636,0,0" VerticalAlignment="Top" Width="436" Click="Link_Click">
+                <HyperlinkButton.Foreground>
+                    <ImageBrush Stretch="Fill"/>
+                </HyperlinkButton.Foreground>
+            </HyperlinkButton>
+            <TextBlock HorizontalAlignment="Left" Height="37" Margin="12,594,0,0" TextWrapping="Wrap" Text="Reference : Touch on to view :" VerticalAlignment="Top" Width="444" FontSize="30" FontFamily="/Assets/fonts/ahronbd.ttf#Aharoni" TextAlignment="Center" Foreground="#FFAF1919"/>
+        </Grid>
+    </Grid>
+
+</phone:PhoneApplicationPage>

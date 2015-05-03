@@ -1,0 +1,48 @@
+﻿<phone:PhoneApplicationPage
+    x:Class="PhoneApp1.Prizes"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait"  Orientation="Portrait"
+    shell:SystemTray.IsVisible="False">
+
+    <!--LayoutRoot is the root grid where all page content is placed-->
+    <Grid x:Name="LayoutRoot" Background="Transparent">
+        <!--Pivot Control-->
+        <phone:Pivot Title="" Foreground="White" Background="White">
+            <!--Pivot item one-->
+            <phone:PivotItem Header="" Background="White" Foreground="White" Margin="10,228,14,-200">
+                <Grid Margin="0,113,0,-113">
+                    <StackPanel Grid.Row="0" Margin="35,-181,-47,784"/>
+                    <TextBlock HorizontalAlignment="Left" Height="68" Margin="126,-329,0,0" TextWrapping="Wrap" Text="Prizes" VerticalAlignment="Top" Width="208" Foreground="#FFAF1919" FontFamily="/Assets/fonts/ahronbd.ttf#Aharoni Bold" FontSize="72"/>
+                    <Button Content="Share Predictions" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="-4,351,-6,0" Width="466" Background="#FF467D32" BorderBrush="#FF467D32" Foreground="#FFAF1919" FontFamily="/Assets/fonts/ahronbd.ttf#Aharoni" FontSize="48" Height="97" Click="Button_Click"/>
+                    <Rectangle x:Name="Flag97" Fill="#FFF5C323" HorizontalAlignment="Left" Height="100" Margin="51,-244,0,0" Stroke="Black" VerticalAlignment="Top" Width="137"/>
+                    <Image x:Name="Image97" HorizontalAlignment="Left" Height="74" Margin="63,-229,0,0" VerticalAlignment="Top" Width="112"/>
+                    <TextBlock x:Name="Name97" HorizontalAlignment="Left" Height="50" Margin="-5,-131,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="224" Foreground="#FFAF1919" FontFamily="/Assets/fonts/ahronbd.ttf#Aharoni Bold" FontSize="30" TextAlignment="Center"/>
+                    <Rectangle x:Name="Flag98" Fill="#FFF5C323" HorizontalAlignment="Left" Height="100" Margin="271,-244,0,0" Stroke="Black" VerticalAlignment="Top" Width="137"/>
+                    <Image x:Name="Image98" HorizontalAlignment="Left" Height="74" Margin="283,-229,0,0" VerticalAlignment="Top" Width="112"/>
+                    <TextBlock x:Name="Name98" HorizontalAlignment="Left" Height="44" Margin="248,-129,-10,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="218" Foreground="#FFAF1919" FontFamily="/Assets/fonts/ahronbd.ttf#Aharoni Bold" FontSize="30" TextAlignment="Center"/>
+                    <Rectangle x:Name="Flag99" Fill="#FFF5C323" HorizontalAlignment="Left" Height="202" Margin="75,-60,0,0" Stroke="Black" VerticalAlignment="Top" Width="303"/>
+                    <Image x:Name="Image99" HorizontalAlignment="Left" Height="180" Margin="96,-42,0,0" VerticalAlignment="Top" Width="258"/>
+                    <TextBlock x:Name="Name99" HorizontalAlignment="Left" Height="89" Margin="-5,147,-6,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="467" Foreground="#FFAF1919" FontFamily="/Assets/fonts/ahronbd.ttf#Aharoni Bold" FontSize="72" TextAlignment="Center"/>
+                    <Image HorizontalAlignment="Left" Height="89" VerticalAlignment="Top" Width="100" Margin="1,-336,0,0" Source="/Images/Bronze.jpg"/>
+                    <Image HorizontalAlignment="Left" Height="100" VerticalAlignment="Top" Width="98" Margin="356,-336,0,0" Source="/Images/Silver.jpg"/>
+                    <Image HorizontalAlignment="Left" Height="110" VerticalAlignment="Top" Width="145" Margin="126,247,0,0" Source="/Images/Gold.jpg"/>
+                    <Image HorizontalAlignment="Left" Height="116" VerticalAlignment="Top" Width="94" Margin="240,241,0,0" Source="/Images/Cup.jpg" RenderTransformOrigin="-0.116,0.5"/>
+                    <Image HorizontalAlignment="Left" Height="700" VerticalAlignment="Top" Width="480" Opacity="0.2" Source="/Images/LOGO.jpg" Margin="0,-354,-24,0"/>
+
+                </Grid>
+            </phone:PivotItem>
+
+            <!--Pivot item two-->
+        </phone:Pivot>
+    </Grid>
+
+</phone:PhoneApplicationPage>

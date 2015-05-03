@@ -1,0 +1,60 @@
+c:\users\hpi5\documents\visual studio 2013\Projects\PhoneApp1\PhoneApp1\Bin\Debug\Assets\ApplicationIcon.png
+c:\users\hpi5\documents\visual studio 2013\Projects\PhoneApp1\PhoneApp1\Bin\Debug\Assets\Tiles\FlipCycleTileLarge.png
+c:\users\hpi5\documents\visual studio 2013\Projects\PhoneApp1\PhoneApp1\Bin\Debug\Assets\Tiles\FlipCycleTileMedium.png
+c:\users\hpi5\documents\visual studio 2013\Projects\PhoneApp1\PhoneApp1\Bin\Debug\Assets\Tiles\FlipCycleTileSmall.png
+c:\users\hpi5\documents\visual studio 2013\Projects\PhoneApp1\PhoneApp1\Bin\Debug\Assets\Tiles\IconicTileMediumLarge.png
+c:\users\hpi5\documents\visual studio 2013\Projects\PhoneApp1\PhoneApp1\Bin\Debug\Assets\Tiles\IconicTileSmall.png
+c:\users\hpi5\documents\visual studio 2013\Projects\PhoneApp1\PhoneApp1\Bin\Debug\PhoneApp1.dll
+c:\users\hpi5\documents\visual studio 2013\Projects\PhoneApp1\PhoneApp1\Bin\Debug\PhoneApp1.pdb
+c:\users\hpi5\documents\visual studio 2013\Projects\PhoneApp1\PhoneApp1\Bin\Debug\AppManifest.xaml
+c:\users\hpi5\documents\visual studio 2013\Projects\PhoneApp1\PhoneApp1\Bin\Debug\Properties\WMAppManifest.xml
+c:\users\hpi5\documents\visual studio 2013\Projects\PhoneApp1\PhoneApp1\Bin\Debug\PhoneApp1_Debug_AnyCPU.xap
+c:\users\hpi5\documents\visual studio 2013\Projects\PhoneApp1\PhoneApp1\obj\Debug\App.g.cs
+c:\users\hpi5\documents\visual studio 2013\Projects\PhoneApp1\PhoneApp1\obj\Debug\MainPage.g.cs
+c:\users\hpi5\documents\visual studio 2013\Projects\PhoneApp1\PhoneApp1\obj\Debug\PhoneApp1.g.resources
+c:\users\hpi5\documents\visual studio 2013\Projects\PhoneApp1\PhoneApp1\obj\Debug\PhoneApp1.Resources.AppResources.resources
+c:\users\hpi5\documents\visual studio 2013\Projects\PhoneApp1\PhoneApp1\obj\Debug\PhoneApp1.csproj.GenerateResource.Cache
+c:\users\hpi5\documents\visual studio 2013\Projects\PhoneApp1\PhoneApp1\obj\Debug\PhoneApp1.dll
+c:\users\hpi5\documents\visual studio 2013\Projects\PhoneApp1\PhoneApp1\obj\Debug\PhoneApp1.pdb
+c:\users\hpi5\documents\visual studio 2013\Projects\PhoneApp1\PhoneApp1\obj\Debug\XapCacheFile.xml
+C:\Users\HPI5\documents\visual studio 2013\Projects\PhoneApp1\PhoneApp1\obj\Debug\GroupsRound.g.cs
+C:\Users\HPI5\documents\visual studio 2013\Projects\PhoneApp1\PhoneApp1\obj\Debug\RoundOf16.g.cs
+C:\Users\HPI5\documents\visual studio 2013\Projects\PhoneApp1\PhoneApp1\obj\Debug\QuarterFinals.g.cs
+C:\Users\HPI5\documents\visual studio 2013\Projects\PhoneApp1\PhoneApp1\obj\Debug\SemiFinals.g.cs
+C:\Users\HPI5\documents\visual studio 2013\Projects\PhoneApp1\PhoneApp1\Bin\Debug\Microsoft.Phone.Controls.dll
+C:\Users\HPI5\documents\visual studio 2013\Projects\PhoneApp1\PhoneApp1\obj\Debug\PhoneApp1.csprojResolveAssemblyReference.cache
+C:\Users\HPI5\documents\visual studio 2013\Projects\PhoneApp1\PhoneApp1\obj\Debug\Prizes.g.cs
+C:\Users\HPI5\Documents\Visual Studio 2013\Projects\PhoneApp1\PhoneApp1\obj\Debug\Finals.g.cs
+C:\Users\HPI5\Documents\Visual Studio 2013\Projects\PhoneApp1\PhoneApp1\obj\Debug\CompletePredictions.g.cs
+C:\Users\HPI5\Documents\Visual Studio 2013\Projects\PhoneApp1\PhoneApp1\obj\Debug\TeamInformation.g.cs
+C:\Users\HPI5\Documents\Visual Studio 2013\Projects\PhoneApp1\PhoneApp1\obj\Debug\TeamInformation2.g.cs
+D:\My Projects\FIFA World Cup 2014 Predictor\Project Steps\Step 13\PhoneApp1\PhoneApp1\Bin\Debug\Assets\ApplicationIcon.png
+D:\My Projects\FIFA World Cup 2014 Predictor\Project Steps\Step 13\PhoneApp1\PhoneApp1\Bin\Debug\Assets\Tiles\FlipCycleTileLarge.png
+D:\My Projects\FIFA World Cup 2014 Predictor\Project Steps\Step 13\PhoneApp1\PhoneApp1\Bin\Debug\Assets\Tiles\FlipCycleTileMedium.png
+D:\My Projects\FIFA World Cup 2014 Predictor\Project Steps\Step 13\PhoneApp1\PhoneApp1\Bin\Debug\Assets\Tiles\FlipCycleTileSmall.png
+D:\My Projects\FIFA World Cup 2014 Predictor\Project Steps\Step 13\PhoneApp1\PhoneApp1\Bin\Debug\Assets\Tiles\IconicTileMediumLarge.png
+D:\My Projects\FIFA World Cup 2014 Predictor\Project Steps\Step 13\PhoneApp1\PhoneApp1\Bin\Debug\Assets\Tiles\IconicTileSmall.png
+D:\My Projects\FIFA World Cup 2014 Predictor\Project Steps\Step 13\PhoneApp1\PhoneApp1\Bin\Debug\PhoneApp1.dll
+D:\My Projects\FIFA World Cup 2014 Predictor\Project Steps\Step 13\PhoneApp1\PhoneApp1\Bin\Debug\PhoneApp1.pdb
+D:\My Projects\FIFA World Cup 2014 Predictor\Project Steps\Step 13\PhoneApp1\PhoneApp1\Bin\Debug\AppManifest.xaml
+D:\My Projects\FIFA World Cup 2014 Predictor\Project Steps\Step 13\PhoneApp1\PhoneApp1\Bin\Debug\Properties\WMAppManifest.xml
+D:\My Projects\FIFA World Cup 2014 Predictor\Project Steps\Step 13\PhoneApp1\PhoneApp1\Bin\Debug\PhoneApp1_Debug_AnyCPU.xap
+D:\My Projects\FIFA World Cup 2014 Predictor\Project Steps\Step 13\PhoneApp1\PhoneApp1\Bin\Debug\Microsoft.Phone.Controls.dll
+D:\My Projects\FIFA World Cup 2014 Predictor\Project Steps\Step 13\PhoneApp1\PhoneApp1\obj\Debug\PhoneApp1.csprojResolveAssemblyReference.cache
+D:\My Projects\FIFA World Cup 2014 Predictor\Project Steps\Step 13\PhoneApp1\PhoneApp1\obj\Debug\App.g.cs
+D:\My Projects\FIFA World Cup 2014 Predictor\Project Steps\Step 13\PhoneApp1\PhoneApp1\obj\Debug\CompletePredictions.g.cs
+D:\My Projects\FIFA World Cup 2014 Predictor\Project Steps\Step 13\PhoneApp1\PhoneApp1\obj\Debug\MainPage.g.cs
+D:\My Projects\FIFA World Cup 2014 Predictor\Project Steps\Step 13\PhoneApp1\PhoneApp1\obj\Debug\GroupsRound.g.cs
+D:\My Projects\FIFA World Cup 2014 Predictor\Project Steps\Step 13\PhoneApp1\PhoneApp1\obj\Debug\Finals.g.cs
+D:\My Projects\FIFA World Cup 2014 Predictor\Project Steps\Step 13\PhoneApp1\PhoneApp1\obj\Debug\Prizes.g.cs
+D:\My Projects\FIFA World Cup 2014 Predictor\Project Steps\Step 13\PhoneApp1\PhoneApp1\obj\Debug\QuarterFinals.g.cs
+D:\My Projects\FIFA World Cup 2014 Predictor\Project Steps\Step 13\PhoneApp1\PhoneApp1\obj\Debug\RoundOf16.g.cs
+D:\My Projects\FIFA World Cup 2014 Predictor\Project Steps\Step 13\PhoneApp1\PhoneApp1\obj\Debug\SemiFinals.g.cs
+D:\My Projects\FIFA World Cup 2014 Predictor\Project Steps\Step 13\PhoneApp1\PhoneApp1\obj\Debug\TeamInformation.g.cs
+D:\My Projects\FIFA World Cup 2014 Predictor\Project Steps\Step 13\PhoneApp1\PhoneApp1\obj\Debug\TeamInformation2.g.cs
+D:\My Projects\FIFA World Cup 2014 Predictor\Project Steps\Step 13\PhoneApp1\PhoneApp1\obj\Debug\PhoneApp1.g.resources
+D:\My Projects\FIFA World Cup 2014 Predictor\Project Steps\Step 13\PhoneApp1\PhoneApp1\obj\Debug\PhoneApp1.Resources.AppResources.resources
+D:\My Projects\FIFA World Cup 2014 Predictor\Project Steps\Step 13\PhoneApp1\PhoneApp1\obj\Debug\PhoneApp1.csproj.GenerateResource.Cache
+D:\My Projects\FIFA World Cup 2014 Predictor\Project Steps\Step 13\PhoneApp1\PhoneApp1\obj\Debug\PhoneApp1.dll
+D:\My Projects\FIFA World Cup 2014 Predictor\Project Steps\Step 13\PhoneApp1\PhoneApp1\obj\Debug\PhoneApp1.pdb
+D:\My Projects\FIFA World Cup 2014 Predictor\Project Steps\Step 13\PhoneApp1\PhoneApp1\obj\Debug\XapCacheFile.xml

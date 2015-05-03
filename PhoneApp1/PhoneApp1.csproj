@@ -1,0 +1,301 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{507D4B77-F790-4993-A3D3-3EE1B3582BA0}</ProjectGuid>
+    <ProjectTypeGuids>{C089C8C0-30E0-4E22-80C0-CE093F111A43};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>PhoneApp1</RootNamespace>
+    <AssemblyName>PhoneApp1</AssemblyName>
+    <TargetFrameworkIdentifier>WindowsPhone</TargetFrameworkIdentifier>
+    <TargetFrameworkVersion>v8.0</TargetFrameworkVersion>
+    <SilverlightVersion>$(TargetFrameworkVersion)</SilverlightVersion>
+    <SilverlightApplication>true</SilverlightApplication>
+    <SupportedCultures>
+    </SupportedCultures>
+    <XapOutputs>true</XapOutputs>
+    <GenerateSilverlightManifest>true</GenerateSilverlightManifest>
+    <XapFilename>PhoneApp1_$(Configuration)_$(Platform).xap</XapFilename>
+    <SilverlightManifestTemplate>Properties\AppManifest.xml</SilverlightManifestTemplate>
+    <SilverlightAppEntry>PhoneApp1.App</SilverlightAppEntry>
+    <ValidateXaml>true</ValidateXaml>
+    <MinimumVisualStudioVersion>11.0</MinimumVisualStudioVersion>
+    <ThrowErrorsInValidation>true</ThrowErrorsInValidation>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Bin\Debug</OutputPath>
+    <DefineConstants>DEBUG;TRACE;SILVERLIGHT;WINDOWS_PHONE</DefineConstants>
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Bin\Release</OutputPath>
+    <DefineConstants>TRACE;SILVERLIGHT;WINDOWS_PHONE</DefineConstants>
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Bin\x86\Debug</OutputPath>
+    <DefineConstants>DEBUG;TRACE;SILVERLIGHT;WINDOWS_PHONE</DefineConstants>
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Bin\x86\Release</OutputPath>
+    <DefineConstants>TRACE;SILVERLIGHT;WINDOWS_PHONE</DefineConstants>
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|ARM' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Bin\ARM\Debug</OutputPath>
+    <DefineConstants>DEBUG;TRACE;SILVERLIGHT;WINDOWS_PHONE</DefineConstants>
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|ARM' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Bin\ARM\Release</OutputPath>
+    <DefineConstants>TRACE;SILVERLIGHT;WINDOWS_PHONE</DefineConstants>
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="CompletePredictions.xaml.cs">
+      <DependentUpon>CompletePredictions.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="LocalizedStrings.cs" />
+    <Compile Include="MainPage.xaml.cs">
+      <DependentUpon>MainPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="GroupsRound.xaml.cs">
+      <DependentUpon>GroupsRound.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Finals.xaml.cs">
+      <DependentUpon>Finals.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Prizes.xaml.cs">
+      <DependentUpon>Prizes.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="QuarterFinals.xaml.cs">
+      <DependentUpon>QuarterFinals.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\AppResources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AppResources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="RoundOf16.xaml.cs">
+      <DependentUpon>RoundOf16.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="SemiFinals.xaml.cs">
+      <DependentUpon>SemiFinals.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="TeamInformation.xaml.cs">
+      <DependentUpon>TeamInformation.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="TeamInformation2.xaml.cs">
+      <DependentUpon>TeamInformation2.xaml</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </ApplicationDefinition>
+    <Page Include="CompletePredictions.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="MainPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="GroupsRound.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Finals.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Prizes.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="QuarterFinals.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="RoundOf16.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="SemiFinals.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="TeamInformation.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="TeamInformation2.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Assets\fonts\ahronbd.ttf" />
+    <Content Include="Images\2018.jpg" />
+    <Content Include="Images\Algeria.jpg" />
+    <Content Include="Images\Argentina.jpg" />
+    <Content Include="Images\Belgium.jpg" />
+    <Content Include="Images\Bosnia.jpg" />
+    <Content Include="Images\Bronze.jpg" />
+    <Content Include="Images\Colombia.jpg" />
+    <Content Include="Images\Costa Rica.jpg" />
+    <Content Include="Images\Cote d%27Ivoire.jpg" />
+    <Content Include="Images\Cup.jpg" />
+    <Content Include="Images\Ecuador.jpg" />
+    <Content Include="Images\England.jpg" />
+    <Content Include="Images\FacebookLogo.jpg" />
+    <Content Include="Images\France.jpg" />
+    <Content Include="Images\Germany.jpg" />
+    <Content Include="Images\Ghana.jpg" />
+    <Content Include="Images\Gold.jpg" />
+    <Content Include="Images\Greece.jpg" />
+    <Content Include="Images\Honduras.jpg" />
+    <Content Include="Images\Iran.jpg" />
+    <Content Include="Images\Italy.jpg" />
+    <Content Include="Images\Japan.jpg" />
+    <Content Include="Images\Netherlands.jpg" />
+    <Content Include="Images\Nigeria.jpg" />
+    <Content Include="Images\Portugal.jpg" />
+    <Content Include="Images\Russia.jpg" />
+    <Content Include="Images\Silver.jpg" />
+    <Content Include="Images\South Korea.jpg" />
+    <Content Include="Images\Switzerland.jpg" />
+    <Content Include="Images\TRANS.png" />
+    <Content Include="Images\TwitterLogo.png" />
+    <Content Include="Images\Uruguay.jpg" />
+    <Content Include="Images\USA.jpg" />
+    <Content Include="Images\WikipediaLogo.png" />
+    <Content Include="Text\Argentina.txt" />
+    <Content Include="Text\Australia.txt" />
+    <Content Include="Text\Belgium.txt" />
+    <Content Include="Text\France.txt" />
+    <Content Include="Text\Mexico.txt" />
+    <Content Include="Text\Portugal.txt" />
+    <Content Include="Text\South Korea.txt" />
+    <Content Include="Text\Uruguay.txt" />
+    <Content Include="Text\Italy.txt" />
+    <Content Include="Text\Japan.txt" />
+    <Content Include="Text\Netherlands.txt" />
+    <Content Include="Text\Russia.txt" />
+    <Content Include="Text\Iran.txt" />
+    <Content Include="Text\Switzerland.txt" />
+    <Content Include="Text\Greece.txt" />
+    <Content Include="Text\Honduras.txt" />
+    <Content Include="Text\Germany.txt" />
+    <Content Include="Text\Ghana.txt" />
+    <Content Include="Text\Espana.txt" />
+    <Content Include="Text\Nigeria.txt" />
+    <Content Include="Text\USA.txt" />
+    <Content Include="Text\England.txt" />
+    <Content Include="Text\Ecuador.txt" />
+    <Content Include="Text\Croatia.txt" />
+    <Content Include="Text\Cote D%27Ivoire.txt" />
+    <Content Include="Text\Costa Rica.txt" />
+    <Content Include="Text\Colombia.txt" />
+    <Content Include="Text\Chile.txt" />
+    <Content Include="Text\Cameroon.txt" />
+    <Content Include="Text\Brazil.txt" />
+    <Content Include="Text\Bosnia.txt" />
+    <Content Include="Text\Algeria.txt" />
+    <None Include="Properties\AppManifest.xml" />
+    <None Include="Properties\WMAppManifest.xml">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Assets\AlignmentGrid.png" />
+    <Content Include="Assets\ApplicationIcon.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Tiles\FlipCycleTileLarge.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Tiles\FlipCycleTileMedium.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Tiles\FlipCycleTileSmall.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Tiles\IconicTileMediumLarge.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Tiles\IconicTileSmall.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Australia.jpg" />
+    <Content Include="Images\Brazil.jpg" />
+    <Content Include="Images\Cameroon.jpg" />
+    <Content Include="Images\Chile.jpg" />
+    <Content Include="Images\Croatia.jpg" />
+    <Content Include="Images\Espana.jpg" />
+    <Content Include="Images\LOGO.jpg" />
+    <Content Include="Images\Mexico.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\AppResources.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>AppResources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Phone.Controls, Version=8.0.0.0, Culture=neutral, PublicKeyToken=24eec0d8c86cda1e, processorArchitecture=MSIL" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\$(TargetFrameworkIdentifier)\$(TargetFrameworkVersion)\Microsoft.$(TargetFrameworkIdentifier).$(TargetFrameworkVersion).Overrides.targets" />
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\$(TargetFrameworkIdentifier)\$(TargetFrameworkVersion)\Microsoft.$(TargetFrameworkIdentifier).CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <ProjectExtensions />
+</Project>
